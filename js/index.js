@@ -1,7 +1,7 @@
 document.addEventListener("DOMContentLoaded", function() {
     const ButtonSoundOn = document.querySelector('.sound-on');
     const ButtonSoundOff = document.querySelector('.sound-off');
-    const bgAudio = new Audio("/music/videoplayback.mp3");
+    const bgAudio = new Audio("https://github.com/Rodrigoue9/Leitura_da_Biblia_2.0/blob/main/music/videoplayback.mp3?raw=true");
 
     // Define a propriedade loop para true para fazer a música de fundo repetir em um loop infinito
     bgAudio.loop = true;
