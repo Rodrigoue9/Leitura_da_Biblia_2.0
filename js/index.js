@@ -1,7 +1,7 @@
 document.addEventListener("DOMContentLoaded", function() {
     const ButtonSoundOn = document.querySelector('.sound-on');
     const ButtonSoundOff = document.querySelector('.sound-off');
-    const bgAudio = new Audio("./music/videoplayback.mp3");
+    const bgAudio = new Audio("/videoplayback.mp3");
 
     // Define a propriedade loop para true para fazer a música de fundo repetir em um loop infinito
     bgAudio.loop = true;
